@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/partybranchapp/cuIndex",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/partybranchapp/cuIndex",
+        "text": "",
+        "iconPath": "pages/images/index.png",
+        "selectedIconPath": "pages/images/index_s.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "pages/images/mine.png",
+        "selectedIconPath": "pages/images/mine_s.png"
+      }
+    ]
+  }
+}
