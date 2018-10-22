@@ -80,5 +80,15 @@ Page({
    */
   onShareAppMessage: function() {
 
+  },
+
+  /**
+   * button自定义
+   */
+  onTapDayWeather() {
+    wx.navigateTo({
+      url: './cuExam?id="xxxx"',
+    })
+
   }
 })

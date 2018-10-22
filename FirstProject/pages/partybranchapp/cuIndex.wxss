@@ -1,6 +1,93 @@
-page{
-    background-color: #FFFFFF;
+page {
+  background-color: #fff;
 }
-image{
-    margin: 4px 0;
+
+image {
+  margin: 4px 0;
+}
+
+.icon-box{
+    float: left;
+    margin: 5rpx;
+    display: flex;
+    align-items: center;
+}
+.icon-box__title{
+    font-size: 18px;
+    margin-left: 5rpx;
+}
+
+.partybr_panel_Tit {
+  margin: 10rpx 15rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.partybr_panel_Tit .partybr_panel_Tit_inTit {
+  font-weight: 400;
+  font-size: 17px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: break-all;
+}
+.partybr_panel_Tit .partybr_panel_Tit_desc{
+  font-weight: 400;
+  font-size: 12px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  word-wrap: normal;
+  word-break: break-all;
+}
+
+.partybr_panel_Rank{
+  margin: 10rpx 15rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+  height: 120rpx;
+}
+
+.partybr_panel_exCont_templet {
+  margin: 5rpx 15rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+  height: 120rpx;
+}
+
+.exCont_Title {
+  font-weight: 400;
+  font-size: 17px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: break-all;
+}
+
+.exCont_btm {
+  margin-top: 5rpx;
+}
+
+.exCont_desc {
+  float: left;
+  width: 80%;
+  height: 60rpx;
+  color: #999;
+  font-size: 13px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.exCont_btn {
+  font-size: 16px;
+  float: left;
+  width: 20%;
+  height: 60rpx;
+  line-height: 60rpx;
 }

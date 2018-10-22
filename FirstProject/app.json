@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/partybranchapp/cuIndex",
+    "pages/partybranchapp/cuExam",
     "pages/index/index",
     "pages/logs/logs"
   ],
