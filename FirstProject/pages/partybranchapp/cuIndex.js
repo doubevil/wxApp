@@ -27,10 +27,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    this.setData({
-      icon20: base64.icon20,
-      icon60: base64.icon60
-    });
+    // this.setData({
+    //   icon20: base64.icon20,
+    //   icon60: base64.icon60
+    // });
+    wx.setNavigationBarTitle({
+      title: 'that.data.mername'//页面标题为路由参数
+    })
   },
 
   /**
@@ -92,3 +95,4 @@ Page({
 
   }
 })
+

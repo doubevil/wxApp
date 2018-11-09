@@ -1,30 +1,41 @@
 <view class='partybr_panel_Tit'>
-  <view class='partybr_panel_Tit_inTit' style='font'>Title1</view>
-  <text class='partybr_panel_Tit_desc'>2222 asdfas2222 asdfas2222 \r\n asdfas2222 asdfas2222 asdfas2222 asdfas2222 asdfas2222 asdfas2222 asdfas2222 asdfas2222 asdfas2222\r\n asdfas2222 asdfas2222 asdfas2222 asdfas</text>
+  <view>
+    <view class='user-gonggao' style='float:left'></view>
+    <view class='partybr_panel_Tit_inTit' style='font'>公告</view>
+  </view>
+  <text class='partybr_panel_Tit_desc'>规则1： \r\n 规则2：\r\n 规则3：\r\n XXX通知：</text>
 </view>
 
-<view class='partybr_panel_Rank'>
-  <view class='Rank_inTit'>Title2</view>
+<view class='partybr_panel_Tit'>
+  <view>
+    <view class='user-paiming' style='float:left'></view>
+    <view class='partybr_panel_Tit_inTit' style='font'>排名</view>
+  </view>
   <view class='weui-flex'>
     <view class="weui-flex__item">
-      <view class="icon-box__title">
-        <icon type="info" size="30" style='margin-right:10rpx'></icon>提示</view>
+      <view class="user-guanjun"></view>
+      <text>张三</text>
     </view>
     <view class="weui-flex__item">
-      <view class="icon-box__title">
-        <icon type="info" size="30" style='margin-right:10rpx'></icon>提示</view>
+      <view class="user-yajun"></view>
+      <text>张三</text>
     </view>
     <view class="weui-flex__item">
-
-      <view class="icon-box__title">
-        <icon type="info" size="30" style='margin-right:10rpx'></icon>提示</view>
+      <view class="user-jijun"></view>
+      <text>张三</text>
     </view>
   </view>
 </view>
 
-<view class='partybr_panel_Content'>
+
+<view class='partybr_panel_Tit_TEST'>
+  <view>
+    <view class='user-ceshi' style='float:left'></view>
+    <view class='partybr_panel_Tit_inTit' style='font'>测试</view>
+  </view>
+  <view class='partybr_panel_Content'>
   <view class='partybr_panel_exCont_templet'>
-    <view class='exCont_Title'>标题三</view>
+    <view class='exCont_Title'>xxxx测试</view>
     <view class='exCont_btm'>
       <view class='exCont_desc'>
         由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。
@@ -32,5 +43,23 @@
       <button class='exCont_btn' bindtap='onTapDayWeather'>开始</button>
     </view>
   </view>
-
+  <view class='partybr_panel_exCont_templet'>
+    <view class='exCont_Title'>xxxx测试</view>
+    <view class='exCont_btm'>
+      <view class='exCont_desc'>
+        由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。
+      </view>
+      <button class='exCont_btn' bindtap='onTapDayWeather'>开始</button>
+    </view>
+  </view>
+  <view class='partybr_panel_exCont_templet'>
+    <view class='exCont_Title'>xxxx测试</view>
+    <view class='exCont_btm'>
+      <view class='exCont_desc'>
+        由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。
+      </view>
+      <button class='exCont_btn' bindtap='onTapDayWeather'>开始</button>
+    </view>
+  </view>
+</view>
 </view>

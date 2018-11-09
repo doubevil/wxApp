@@ -1,3 +1,5 @@
+@import "selfsheet.wxss";
+
 page {
   background-color: #fff;
 }
@@ -6,15 +8,16 @@ image {
   margin: 4px 0;
 }
 
-.icon-box{
-    float: left;
-    margin: 5rpx;
-    display: flex;
-    align-items: center;
+.icon-box {
+  float: left;
+  margin: 5rpx;
+  display: flex;
+  align-items: center;
 }
-.icon-box__title{
-    font-size: 18px;
-    margin-left: 5rpx;
+
+.icon-box__title {
+  font-size: 18px;
+  margin-left: 5rpx;
 }
 
 .partybr_panel_Tit {
@@ -23,16 +26,18 @@ image {
 }
 
 .partybr_panel_Tit .partybr_panel_Tit_inTit {
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: 500px;
+  font-size: 26px;
   width: auto;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   word-wrap: normal;
   word-break: break-all;
+  padding: 0 4px;
 }
-.partybr_panel_Tit .partybr_panel_Tit_desc{
+
+.partybr_panel_Tit .partybr_panel_Tit_desc {
   font-weight: 400;
   font-size: 12px;
   width: auto;
@@ -43,7 +48,23 @@ image {
   word-break: break-all;
 }
 
-.partybr_panel_Rank{
+.partybr_panel_Tit_TEST {
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.partybr_panel_Tit_TEST .partybr_panel_Tit_inTit {
+  font-weight: 500px;
+  font-size: 26px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: break-all;
+  padding: 0 4px;
+}
+
+.partybr_panel_Rank {
   margin: 10rpx 15rpx;
   border-bottom: 1rpx solid #e5e5e5;
   height: 120rpx;
